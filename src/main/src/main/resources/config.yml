@@ -1,0 +1,11 @@
+# Seconds between announcements
+interval-seconds: 300
+
+# Added before every message
+prefix: "&6[Announce] &f"
+
+# Sent one by one, in order, then it loops
+messages:
+  - "Welcome to the server! Be respectful to everyone."
+  - "Need help? Ask a staff member."
+  - "Don't forget to vote for the server!"
