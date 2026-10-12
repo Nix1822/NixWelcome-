@@ -1,0 +1,17 @@
+name: NixWelcome
+version: '${project.version}'
+main: com.nix.nixwelcome.NixWelcome
+api-version: '1.21'
+author: Nix
+description: Configurable join messages for Paper servers
+
+commands:
+  nixwelcome:
+    description: Admin command for NixWelcome
+    usage: /nixwelcome reload
+    permission: nixwelcome.admin
+
+permissions:
+  nixwelcome.admin:
+    description: Allows reloading the plugin config
+    default: op
